@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %} | Our Course Inventory {% endblock %}
+
+{% block content %}
+<div class="container">
+  <h2  class="pt-4"><center>My Courses<center></h2>
+</div>
+<div class="">
+  <section>
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          {% for course in all_courses %}
+          <div class="col">
+              <div class="card shadow-sm">
+                  <a href="{% url 'course_details' course.id %}">
+                      <img src="{{course.image.url}}" alt="" style="min-height: 263px;max-height: 263px;width: 100%">
+                  </a>
+                <div class="card-body">
+                  <p class="card-text">{{ course.summary }}</p>
+                </div>
+              </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+{% endblock %}
