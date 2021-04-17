@@ -1,0 +1,305 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$39ND9zx0gnbi0iiU3kRTTp$zcj/IaYqS+b7JqtwpmYMpAzr40lM8vzTfkvyOkiobLA=",
+        "last_login": "2021-04-17T13:59:19.903Z",
+        "is_superuser": true,
+        "username": "Meshach",
+        "first_name": "",
+        "last_name": "",
+        "email": "meshlrd14@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-04-17T13:59:01.088Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "tpq0g6ei8klkmrjx0wa49px5uuhsed4d",
+    "fields": {
+        "session_data": ".eJxVjE0OwiAYBe_C2hChFMSle89Avj-kaiAp7cp4d23ShW7fzLyXSrAuJa1d5jSxOiujDr8bAj2kboDvUG9NU6vLPKHeFL3Trq-N5XnZ3b-DAr1865hptCFYK0gi0eYTDITiOBo3mCOCGOcoGyGfCX2k0XmGzD4Dsgui3h8MzzmE:1lXlTj:3BApaQREDmVkm0iajFbd_iFV_YVfYqp_13Wup7l3PmQ",
+        "expire_date": "2021-05-01T13:59:19.962Z"
+    }
+},
+{
+    "model": "PortFolio.course",
+    "pk": 1,
+    "fields": {
+        "image": "images/java.png",
+        "summary": "Java is a simple, general-purpose, object-oriented, interpreted, robust, secure, architecture-neutral, portable, high-performance, multithreaded computer language"
+    }
+},
+{
+    "model": "PortFolio.course",
+    "pk": 2,
+    "fields": {
+        "image": "images/hmtl_KwTMWBw.png",
+        "summary": "This tutorial has taught you how to use HTML to create your own web site.  HTML is the universal markup language for the Web. HTML lets you format text, add graphics, create links, input forms, frames"
+    }
+},
+{
+    "model": "PortFolio.course",
+    "pk": 3,
+    "fields": {
+        "image": "images/django.png",
+        "summary": "Django is a high-level Python web framework that enables rapid development of secure and maintainable websites"
+    }
+},
+{
+    "model": "PortFolio.course",
+    "pk": 4,
+    "fields": {
+        "image": "images/python.png",
+        "summary": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics"
+    }
+},
+{
+    "model": "PortFolio.course",
+    "pk": 5,
+    "fields": {
+        "image": "images/Bootstrap.jpg",
+        "summary": "Bootstrap is a potent front-end framework used to create modern websites and web apps"
+    }
+},
+{
+    "model": "CourseApp.coursedetail",
+    "pk": 1,
+    "fields": {
+        "image": "photo/2021/04/17/java_m5dijwy.png",
+        "description": "Java is a high-level programming language developed by Sun Microsystems. It was originally designed for developing programs for set-top boxes and handheld devices."
+    }
+},
+{
+    "model": "CourseApp.coursedetail",
+    "pk": 2,
+    "fields": {
+        "image": "photo/2021/04/17/hmtl.png",
+        "description": "The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS)"
+    }
+},
+{
+    "model": "CourseApp.coursedetail",
+    "pk": 3,
+    "fields": {
+        "image": "photo/2021/04/17/django_NkgH3aI.png",
+        "description": "Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. ... Django helps developers avoid many common security mistakes by providing a framework"
+    }
+},
+{
+    "model": "CourseApp.coursedetail",
+    "pk": 4,
+    "fields": {
+        "image": "photo/2021/04/17/python.png",
+        "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding."
+    }
+},
+{
+    "model": "CourseApp.coursedetail",
+    "pk": 5,
+    "fields": {
+        "image": "photo/2021/04/17/Bootstrap.jpg",
+        "description": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography."
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-04-17T14:00:29.261Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "CourseApp",
+            "coursedetail"
+        ],
+        "object_id": "1",
+        "object_repr": "Java is a high-level programming language developed by Sun Microsystems. It was originally designed for developing programs for set-top boxes and handheld devices.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-04-17T14:01:48.574Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "CourseApp",
+            "coursedetail"
+        ],
+        "object_id": "2",
+        "object_repr": "The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-04-17T14:02:36.807Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "CourseApp",
+            "coursedetail"
+        ],
+        "object_id": "1",
+        "object_repr": "Java is a high-level programming language developed by Sun Microsystems. It was originally designed for developing programs for set-top boxes and handheld devices.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-04-17T14:03:39.955Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "CourseApp",
+            "coursedetail"
+        ],
+        "object_id": "3",
+        "object_repr": "Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. ... Django helps developers avoid many common security mistakes by providing a framework",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-04-17T14:05:02.796Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "CourseApp",
+            "coursedetail"
+        ],
+        "object_id": "4",
+        "object_repr": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-04-17T14:05:55.169Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "CourseApp",
+            "coursedetail"
+        ],
+        "object_id": "5",
+        "object_repr": "Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-04-17T14:06:57.281Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "PortFolio",
+            "course"
+        ],
+        "object_id": "1",
+        "object_repr": "Java is a simple, general-purpose, object-oriented, interpreted, robust, secure, architecture-neutral, portable, high-performance, multithreaded computer language",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-04-17T14:07:14.770Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "PortFolio",
+            "course"
+        ],
+        "object_id": "2",
+        "object_repr": "This tutorial has taught you how to use HTML to create your own web site.  HTML is the universal markup language for the Web. HTML lets you format text, add graphics, create links, input forms, frames",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-04-17T14:08:11.081Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "PortFolio",
+            "course"
+        ],
+        "object_id": "3",
+        "object_repr": "Django is a high-level Python web framework that enables rapid development of secure and maintainable websites",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-04-17T14:08:54.517Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "PortFolio",
+            "course"
+        ],
+        "object_id": "4",
+        "object_repr": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-04-17T14:09:29.036Z",
+        "user": [
+            "Meshach"
+        ],
+        "content_type": [
+            "PortFolio",
+            "course"
+        ],
+        "object_id": "5",
+        "object_repr": "Bootstrap is a potent front-end framework used to create modern websites and web apps",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
